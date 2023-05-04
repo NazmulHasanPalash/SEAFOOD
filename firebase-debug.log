@@ -1,0 +1,141 @@
+[debug] [2021-10-28T11:19:09.486Z] ----------------------------------------------------------------------
+[debug] [2021-10-28T11:19:09.489Z] Command:       /usr/local/bin/firebase /Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-10-28T11:19:09.489Z] CLI Version:   9.20.0
+[debug] [2021-10-28T11:19:09.489Z] Platform:      darwin
+[debug] [2021-10-28T11:19:09.489Z] Node Version:  v12.18.1
+[debug] [2021-10-28T11:19:09.491Z] Time:          Thu Oct 28 2021 17:19:09 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-28T11:19:09.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-28T11:19:09.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-28T11:19:09.549Z] > authorizing via signed-in user (antynion1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/palash/web development/Genius-Car-Mechanics-Client-Module-65
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using genius-car-mechanics. 
+[debug] [2021-10-28T11:19:19.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-10-28T11:19:20.200Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-10-28T11:19:20.200Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-10-28T11:19:20.201Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-10-28T11:19:20.382Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Client.request (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-10-28T11:20:04.573Z] ----------------------------------------------------------------------
+[debug] [2021-10-28T11:20:04.577Z] Command:       /usr/local/bin/firebase /Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-10-28T11:20:04.578Z] CLI Version:   9.20.0
+[debug] [2021-10-28T11:20:04.578Z] Platform:      darwin
+[debug] [2021-10-28T11:20:04.578Z] Node Version:  v12.18.1
+[debug] [2021-10-28T11:20:04.585Z] Time:          Thu Oct 28 2021 17:20:04 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-28T11:20:04.586Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-28T11:20:04.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-28T11:20:04.668Z] > authorizing via signed-in user (antynion1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/palash/web development/Genius-Car-Mechanics-Client-Module-65
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using genius-car-mechanics. 
+[debug] [2021-10-28T11:20:27.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-10-28T11:20:27.685Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-10-28T11:20:27.685Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-10-28T11:20:27.686Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-10-28T11:20:27.858Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Client.request (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-10-28T11:23:34.417Z] ----------------------------------------------------------------------
+[debug] [2021-10-28T11:23:34.428Z] Command:       /usr/local/bin/firebase /Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-10-28T11:23:34.428Z] CLI Version:   9.20.0
+[debug] [2021-10-28T11:23:34.428Z] Platform:      darwin
+[debug] [2021-10-28T11:23:34.429Z] Node Version:  v12.18.1
+[debug] [2021-10-28T11:23:34.445Z] Time:          Thu Oct 28 2021 17:23:34 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-10-28T11:23:34.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-28T11:23:34.533Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-28T11:23:34.534Z] > authorizing via signed-in user (antynion1998@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/palash/web development/Genius-Car-Mechanics-Client-Module-65
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using genius-car-mechanics. 
+[debug] [2021-10-28T11:23:54.770Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-10-28T11:23:55.407Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-10-28T11:23:55.407Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-10-28T11:23:55.408Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-10-28T11:23:55.605Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Client.request (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/features/project.js:77:27)
+    at async init (/Users/palash/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
