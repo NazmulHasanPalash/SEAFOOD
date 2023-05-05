@@ -70,7 +70,7 @@ const Booking = () => {
             <div className="card bg-dark text-white  mx-auto">
                 <img src="https://www.bradenonline.com/wp-content/uploads/2020/07/businessman-3213659_1920.jpg" className="card-img" alt="..." />
                 <div className="card-img-overlay text-center">
-                    <h1>Sea <span className="span-style">Food<i class="fas fa-shield-alt"></i></span></h1>
+                    <h1>Makang<span className="span-style">Ikang<i class="fas fa-shield-alt"></i></span></h1>
                 </div>
             </div>
             <div className="card mb-3 appointment-style w-75 mx-auto my-3">
