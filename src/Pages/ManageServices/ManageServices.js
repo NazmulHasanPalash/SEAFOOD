@@ -26,6 +26,7 @@ const ManageServices = () => {
             {
                 services.map(service => <div
                     key={service._id}>
+                    <img className='w-50' src={service.img} alt="" />
                     <h3>{service.name}</h3>
                     <button onClick={() => handleDelete(service._id)}>Delete</button>
                 </div>)

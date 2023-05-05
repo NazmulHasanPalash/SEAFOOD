@@ -8,23 +8,22 @@ import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: mechanic1,
+        img: "https://www.hitsa.com.au/wp-content/uploads/types-of-chefs.jpg",
         name: 'Andrew Smith',
 
     },
     {
-        img: mechanic2,
+        img: "https://wallpapercave.com/wp/wp1882340.jpg",
         name: 'John Anderson',
 
     },
     {
-        img: mechanic3,
+        img: "https://media.licdn.com/dms/image/D4D03AQEJ-t1_z3L7cw/profile-displayphoto-shrink_800_800/0/1680508099769?e=2147483647&v=beta&t=crHfNGjW0uuLF66SWUL8ueapMho9ZOTdWdS9BW93x48",
         name: 'Zakaria Smith',
 
     },
     {
-        img: mechanic4,
-        name: 'Sakib Anderson',
+
 
     },
 ]
@@ -32,7 +31,7 @@ const experts = [
 const Experts = () => {
     return (
         <div id="experts" className="container">
-            <h2 className="text-primary mt-5">Our Delivery Men</h2>
+            <h2 className="text-primary mt-5">Our Chef</h2>
             <div className="row">
                 {
                     experts.map(expert => <Expert

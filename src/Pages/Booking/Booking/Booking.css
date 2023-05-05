@@ -1,0 +1,16 @@
+.appointment-form {
+    margin: 30px 150px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1SGmfURyb8fyFBGNbfoGKT8VdcjAyBVncA&usqp=CAU);
+    background-size: 100%;
+}
+
+.appointment-form input {
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 50%;
+}
